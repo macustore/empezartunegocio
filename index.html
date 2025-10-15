@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Test de Mentalidad High Ticket - Pon a prueba tus conocimientos</title>
+    <meta name="description" content="Completa nuestro cuestionario interactivo de 3 módulos y accede a contenido exclusivo. Aprende de forma divertida con retroalimentación visual instantánea." />
+    
+    <!-- Canvas Confetti desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="header">
+            <h1>Test de Mentalidad High Ticket</h1>
+            <p>Descubre si tienes la mentalidad de un closer de alto valor</p>
+        </header>
+
+        <div class="quiz-module" id="quizModule" style="display: none;">
+            <div class="module-image">
+                <img id="moduleImage" src="" alt="Módulo" />
+            </div>
+
+            <div class="quiz-card" id="quizCard">
+                <h2 class="quiz-title" id="quizTitle">Paso 1 de 3</h2>
+                <p class="quiz-question" id="quizQuestion"></p>
+
+                <div class="options" id="options"></div>
+
+                <div class="error-message" id="errorMessage">
+                    ❌ Respuesta incorrecta. Inténtalo de nuevo.
+                </div>
+
+                <button class="submit-button" id="submitButton" disabled>
+                    Verificar Respuesta
+                </button>
+            </div>
+        </div>
+
+        <div class="completion" id="completion">
+            <div>
+                <h2>🎉 ¡Felicidades! 🚀</h2>
+                <p class="subtitle">Has completado exitosamente todas las preguntas</p>
+                <p class="description">
+                    Tienes la mentalidad, la ambición y las ganas necesarias para iniciar en un negocio de alto valor. No importa la experiencia, sino tu visión, compromiso y disposición para aprender. Bienvenido a una etapa donde tu crecimiento no tendrá límites. 🚀
+                </p>
+            </div>
+            <a href="https://go.hotmart.com/B99761457R?pad=https://universidad.online/por-que-las-amas-de-casa-ahora-pueden-ganar-mas-dinero-que-sus-esposos-siendo-closers-de-ventas-sin-abandonar-su-responsabilidad-de-madres-y-trabajando-en-el-telefono-en-los-horarios-que-ell/" target="_blank" class="webinar-button">
+                Accede al Articulo 🎓
+            </a>
+        </div>
+    </div>
+
+    <!-- JS externo -->
+    <script src="js/script.js"></script>
+</body>
+</html>
