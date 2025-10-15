@@ -34,9 +34,9 @@ body {
     margin-bottom: 1rem;
     color: #ffffff;
     background: linear-gradient(135deg, #a855f7, #b455f7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
 }
 
 .header p {
@@ -275,4 +275,5 @@ body {
         min-width: 250px;
     }
 }
+
 
